@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/xiaosw/Workspace/android-studio/Camera2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-port-v13/values-sw600dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "/home/xiaosw/Workspace/android-studio/Camera2/app/res/values-sw600dp-port/styles.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "907"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "275"
+                    }
+                }
+            ]
+        }
+    ]
+}

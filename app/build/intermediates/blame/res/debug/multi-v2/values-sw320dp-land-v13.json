@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/xiaosw/Workspace/android-studio/Camera2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw320dp-land-v13/values-sw320dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/home/xiaosw/Workspace/android-studio/Camera2/app/res/values-sw320dp-land/photoeditor_dimens.xml",
+                    "from": {
+                        "startLines": "17,18",
+                        "startColumns": "4,4",
+                        "startOffsets": "746,809",
+                        "endColumns": "62,60",
+                        "endOffsets": "804,865"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,118",
+                        "endColumns": "62,60",
+                        "endOffsets": "113,174"
+                    }
+                }
+            ]
+        }
+    ]
+}

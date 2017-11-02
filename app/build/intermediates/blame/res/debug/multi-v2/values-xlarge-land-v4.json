@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/xiaosw/Workspace/android-studio/Camera2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+            "map": [
+                {
+                    "source": "/home/xiaosw/Workspace/android-studio/Camera2/app/res/values-xlarge-land/drawable.xml",
+                    "from": {
+                        "startLines": "19,20",
+                        "startColumns": "4,4",
+                        "startOffsets": "867,990",
+                        "endColumns": "122,138",
+                        "endOffsets": "985,1124"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,178",
+                        "endColumns": "122,138",
+                        "endOffsets": "173,312"
+                    }
+                }
+            ]
+        }
+    ]
+}

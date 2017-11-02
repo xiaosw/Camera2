@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/xiaosw/Workspace/android-studio/Camera2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-notouch-v14/values-notouch-v14.xml",
+            "map": [
+                {
+                    "source": "/home/xiaosw/Workspace/android-studio/Camera2/app/res/values-notouch-v14/styles.xml",
+                    "from": {
+                        "startLines": "21,17",
+                        "startColumns": "4,4",
+                        "startOffsets": "965,687",
+                        "endLines": "23,20",
+                        "endColumns": "12,12",
+                        "endOffsets": "1103,960"
+                    },
+                    "to": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,198",
+                        "endLines": "4,8",
+                        "endColumns": "12,12",
+                        "endOffsets": "193,471"
+                    }
+                }
+            ]
+        }
+    ]
+}

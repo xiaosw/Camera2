@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/xiaosw/Workspace/android-studio/Camera2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw360dp-land-v13/values-sw360dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/home/xiaosw/Workspace/android-studio/Camera2/app/res/values-sw360dp-land/dimensions.xml",
+                    "from": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "686",
+                        "endColumns": "49",
+                        "endOffsets": "731"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    }
+                }
+            ]
+        }
+    ]
+}

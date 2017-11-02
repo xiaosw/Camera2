@@ -1,0 +1,359 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:3:1-160:12
+INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:3:1-160:12
+INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:3:1-160:12
+INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:3:1-160:12
+MERGED from [com.android.support:appcompat-v7:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.0.0.aar/147de20ba347a33e4aa8fb93e5574849/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-v4:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-v4-25.0.0.aar/65bff85227f62ed821ca5be9dce80cc2/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:multidex:1.0.2] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/79c90f121bc7292dae3df5690ece40a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.0.0.aar/b76ba66eb0f11e794db08bb1e99ad399/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.0.0.aar/edd49937c155aaada5a41574cd196739/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-fragment:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-fragment-25.0.0.aar/20e9a4ec5b385089c97f42c1e8af38b8/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.0.0.aar/f43346e0b6fd22b345cf3e26b51a0841/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.0.aar/634065835249cd24ce79eb6b85b2b2e0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.0.0.aar/7647866150d50b91083d08a9f4f73264/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-compat-25.0.0.aar/d85b53a96a71db0c24785e5536c0c174/AndroidManifest.xml:17:1-27:12
+INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:3:1-160:12
+INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:3:1-160:12
+INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:3:1-160:12
+	package
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:5:5-34
+		INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml
+		INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:3:1-160:12
+		INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:3:1-160:12
+		INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:4:5-63
+uses-sdk
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.0.0.aar/147de20ba347a33e4aa8fb93e5574849/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.0.0.aar/147de20ba347a33e4aa8fb93e5574849/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-v4-25.0.0.aar/65bff85227f62ed821ca5be9dce80cc2/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-v4-25.0.0.aar/65bff85227f62ed821ca5be9dce80cc2/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:multidex:1.0.2] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/79c90f121bc7292dae3df5690ece40a1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/79c90f121bc7292dae3df5690ece40a1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.0.0.aar/b76ba66eb0f11e794db08bb1e99ad399/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.0.0.aar/b76ba66eb0f11e794db08bb1e99ad399/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.0.0.aar/edd49937c155aaada5a41574cd196739/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.0.0.aar/edd49937c155aaada5a41574cd196739/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-fragment:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-fragment-25.0.0.aar/20e9a4ec5b385089c97f42c1e8af38b8/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-fragment-25.0.0.aar/20e9a4ec5b385089c97f42c1e8af38b8/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.0.0.aar/f43346e0b6fd22b345cf3e26b51a0841/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.0.0.aar/f43346e0b6fd22b345cf3e26b51a0841/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.0.aar/634065835249cd24ce79eb6b85b2b2e0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.0.aar/634065835249cd24ce79eb6b85b2b2e0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.0.0.aar/7647866150d50b91083d08a9f4f73264/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.0.0.aar/7647866150d50b91083d08a9f4f73264/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-compat-25.0.0.aar/d85b53a96a71db0c24785e5536c0c174/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-compat-25.0.0.aar/d85b53a96a71db0c24785e5536c0c174/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.0.0.aar/147de20ba347a33e4aa8fb93e5574849/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:9:9-38
+		INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml
+		INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:8:9-35
+		INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml
+		INJECTED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:14:22-73
+uses-permission#android.permission.BIND_WALLPAPER
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:15:5-73
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:15:22-70
+uses-permission#android.permission.CAMERA
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:16:5-65
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:16:22-62
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:17:5-76
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:17:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:18:22-64
+uses-permission#android.permission.NFC
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:19:5-62
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:19:22-59
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:20:5-77
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:20:22-74
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:21:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:22:5-71
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:22:22-68
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:23:5-72
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:23:22-69
+uses-permission#android.permission.SUBSCRIBED_FEEDS_READ
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:24:22-77
+uses-permission#android.permission.SUBSCRIBED_FEEDS_WRITE
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:25:22-78
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:26:5-74
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:26:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:27:5-66
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:27:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:28:5-68
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:28:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:29:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:30:5-73
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:30:22-70
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:31:5-78
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:31:22-75
+supports-screens
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:33:5-37:40
+	android:largeScreens
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:35:9-36
+	android:smallScreens
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:37:9-37
+	android:normalScreens
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:36:9-37
+	android:anyDensity
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:34:9-34
+application
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:39:5-158:19
+MERGED from [com.android.support:appcompat-v7:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.0.0.aar/147de20ba347a33e4aa8fb93e5574849/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.0.0.aar/147de20ba347a33e4aa8fb93e5574849/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-v4-25.0.0.aar/65bff85227f62ed821ca5be9dce80cc2/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-v4-25.0.0.aar/65bff85227f62ed821ca5be9dce80cc2/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.0.0.aar/b76ba66eb0f11e794db08bb1e99ad399/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.0.0.aar/b76ba66eb0f11e794db08bb1e99ad399/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.0.0.aar/edd49937c155aaada5a41574cd196739/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.0.0.aar/edd49937c155aaada5a41574cd196739/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-fragment-25.0.0.aar/20e9a4ec5b385089c97f42c1e8af38b8/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-fragment-25.0.0.aar/20e9a4ec5b385089c97f42c1e8af38b8/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.0.0.aar/f43346e0b6fd22b345cf3e26b51a0841/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.0.0.aar/f43346e0b6fd22b345cf3e26b51a0841/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.0.aar/634065835249cd24ce79eb6b85b2b2e0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.0.aar/634065835249cd24ce79eb6b85b2b2e0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.0.0.aar/7647866150d50b91083d08a9f4f73264/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.0.0.aar/7647866150d50b91083d08a9f4f73264/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-compat-25.0.0.aar/d85b53a96a71db0c24785e5536c0c174/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] /home/xiaosw/.gradle/caches/transforms-1/files-1.1/support-compat-25.0.0.aar/d85b53a96a71db0c24785e5536c0c174/AndroidManifest.xml:25:5-20
+	android:supportsRtl
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:46:9-35
+	android:label
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:43:9-41
+	android:hardwareAccelerated
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:41:9-43
+	android:restoreAnyVersion
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:45:9-41
+	android:largeHeap
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:44:9-33
+	android:icon
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:42:9-58
+	android:theme
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:47:9-44
+	android:usesCleartextTraffic
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:48:9-45
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:40:9-56
+activity#com.android.camera.CameraActivity
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:49:9-70:20
+	android:clearTaskOnLaunch
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:51:13-45
+	android:label
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:53:13-45
+	android:launchMode
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:54:13-44
+	android:windowSoftInputMode
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:57:13-70
+	android:configChanges
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:52:13-74
+	android:theme
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:56:13-48
+	android:taskAffinity
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:55:13-69
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:50:13-61
+intent-filter#android.intent.category.DEFAULT+android.media.action.STILL_IMAGE_CAMERA
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:58:13-61:29
+action#android.media.action.STILL_IMAGE_CAMERA
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:59:25-79
+category#android.intent.category.DEFAULT
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:60:17-76
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:60:27-73
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:62:13-65:29
+action#android.intent.action.MAIN
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:63:17-69
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:63:25-66
+meta-data#com.android.keyguard.layout
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:67:13-69:62
+	android:resource
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:69:17-59
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:68:17-59
+activity#com.android.camera.PermissionsActivity
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:72:9-80:20
+	android:parentActivityName
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:76:17-79
+	android:label
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:74:17-49
+	android:excludeFromRecents
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:75:17-50
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:73:17-70
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:77:13-79:73
+	android:value
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:79:21-70
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:78:21-67
+activity-alias#com.android.camera.CameraLauncher
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:82:9-92:26
+	android:label
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:84:13-45
+	android:targetActivity
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:85:13-71
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:83:13-61
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:86:13-91:29
+category#android.intent.category.LAUNCHER
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:90:17-77
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:90:27-74
+activity#com.android.camera.CaptureActivity
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:94:9-104:20
+	android:label
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:96:13-45
+	android:windowSoftInputMode
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:99:13-70
+	android:configChanges
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:98:13-74
+	android:theme
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:97:13-48
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:95:13-62
+intent-filter#android.intent.category.DEFAULT+android.media.action.IMAGE_CAPTURE
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:100:13-103:29
+action#android.media.action.IMAGE_CAPTURE
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:101:17-77
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:101:25-74
+activity-alias#com.android.camera.VideoCamera
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:107:9-119:26
+	android:label
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:109:13-55
+	android:targetActivity
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:110:13-72
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:108:13-58
+intent-filter#android.intent.category.DEFAULT+android.media.action.VIDEO_CAMERA
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:111:13-114:29
+action#android.media.action.VIDEO_CAMERA
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:112:17-76
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:112:25-73
+intent-filter#android.intent.category.DEFAULT+android.media.action.VIDEO_CAPTURE
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:115:13-118:29
+action#android.media.action.VIDEO_CAPTURE
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:116:17-77
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:116:25-74
+activity#com.android.camera.SecureCameraActivity
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:121:9-144:20
+	android:clearTaskOnLaunch
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:123:13-45
+	android:label
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:126:13-45
+	android:excludeFromRecents
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:125:13-46
+	android:windowSoftInputMode
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:129:13-70
+	android:configChanges
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:124:13-74
+	android:theme
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:128:13-54
+	android:taskAffinity
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:127:13-75
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:122:13-67
+intent-filter#android.intent.category.DEFAULT+android.media.action.STILL_IMAGE_CAMERA_SECURE
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:130:13-134:29
+action#android.media.action.STILL_IMAGE_CAMERA_SECURE
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:131:17-89
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:131:25-86
+intent-filter#android.intent.category.DEFAULT+android.media.action.IMAGE_CAPTURE_SECURE
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:135:13-139:29
+action#android.media.action.IMAGE_CAPTURE_SECURE
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:136:17-84
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:136:25-81
+activity#com.android.camera.settings.CameraSettingsActivity
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:146:9-151:20
+	android:label
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:148:13-50
+	android:configChanges
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:150:13-74
+	android:theme
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:149:13-56
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:147:13-78
+receiver#com.android.camera.DisableCameraReceiver
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:153:9-157:20
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:153:19-74
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:154:13-156:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:155:17-79
+	android:name
+		ADDED from /home/xiaosw/Workspace/android-studio/Camera2/app/AndroidManifest.xml:155:25-76

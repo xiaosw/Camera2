@@ -1,0 +1,135 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+
+    signingConfigs {
+        config {
+            storeFile file("com.putao.sign.jks")
+            storePassword "123456"
+            keyAlias "com.putao"
+            keyPassword "putao123"
+        }
+        putao {
+            storeFile file(System.getenv("HOME") + "/keystore/putao.keystore")
+            storePassword "putao123"
+            keyAlias "ptx"
+            keyPassword "putao123"
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.android.camera2_dev"
+        minSdkVersion 20
+        targetSdkVersion 22
+        versionCode 45
+        versionName "1.0.17"
+
+        buildConfigField 'String', 'FLAVOR_DEV', "\"dev\""
+        buildConfigField 'String', 'FLAVOR_INNERTEST', "\"innerTest\""
+        buildConfigField 'String', 'FLAVOR_ONLINE', "\"online\""
+
+        renderscriptTargetApi 18
+        renderscriptSupportModeEnabled true
+
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.putao
+            zipAlignEnabled true
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            signingConfig signingConfigs.config
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+            manifest {
+                // there's only ever one file so srcFile replaces it.
+                srcFile 'AndroidManifest.xml'
+            }
+
+            jniLibs.srcDirs = ['libs']
+
+            java {
+                // writing:
+                //    srcDir 'src'
+                // would *add* to the default folder so we use a different syntax
+                srcDirs = ['src',
+                           'src_pd',
+                           'src_pd_gcam',
+                           'src_android_ex_camera2/portability/src',
+                           'src_android_ex_camera2/public/src',
+                           'src_android_ex_camera2/utils/src',
+                           'src_guava/guava/src',
+                           'src_guava/guava-bootstrap/src',
+                           'src_xmp_toolkit/XMPCore']
+                //exclude 'some/unwanted/packageName/**'
+            }
+            res {
+                srcDirs = ['res', 'res_p']
+            }
+            assets {
+                srcDirs = ['assets']
+            }
+            resources {
+//                srcDirs = ['src', '../mp4parser/isoparser/src/main/resources']
+            }
+            aidl {
+                srcDirs = ['src']
+            }
+            renderscript {
+                srcDirs = ['src']
+            }
+        }
+    }
+
+    lintOptions {
+      checkReleaseBuilds false
+      // Or, if you prefer, you can continue to check for errors in release builds,
+      // but continue the build even when errors are found:
+      abortOnError false
+    }
+
+    dexOptions {
+        jumboMode true
+        javaMaxHeapSize "4g"
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support:support-v4:25.0.0'
+    compile 'com.android.support:multidex:1.0.2'
+    provided('com.google.code.findbugs:findbugs:3.0.1') {
+        exclude(group: 'org.ow2.asm', module: 'asm-tree')
+        exclude(group: 'org.ow2.asm', module: 'asm-commons')
+    }
+
+
+    compile 'com.github.bumptech.glide:glide:3.8.0'
+
+}

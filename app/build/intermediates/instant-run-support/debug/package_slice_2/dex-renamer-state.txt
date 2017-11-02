@@ -1,0 +1,4 @@
+#Thu Nov 02 14:50:36 CST 2017
+base.0=/home/xiaosw/Workspace/android-studio/Camera2/app/build/intermediates/transforms/dexMerger/debug/3
+renamed.0=classes.dex
+file.0=/home/xiaosw/Workspace/android-studio/Camera2/app/build/intermediates/transforms/dexMerger/debug/3/classes.dex

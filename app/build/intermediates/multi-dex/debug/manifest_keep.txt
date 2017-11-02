@@ -1,0 +1,3 @@
+# Referenced at /home/xiaosw/Workspace/android-studio/Camera2/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:39
+-keep class com.android.camera.app.CameraApp { <init>(...); }
+
